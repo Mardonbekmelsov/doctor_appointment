@@ -1,4 +1,4 @@
-import 'package:doctor_appointment/views/screens/onbording_screen.dart';
+import 'package:doctor_appointment/views/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: OnbordingScreen(),
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
     );
   }
 }
