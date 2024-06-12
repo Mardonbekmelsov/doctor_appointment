@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return const ScreenUtilInit(
       designSize: Size(442, 888),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: OnbordingScreen(),
       ),
     );
