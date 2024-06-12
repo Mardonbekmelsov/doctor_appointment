@@ -1,8 +1,8 @@
+import 'package:doctor_appointment/views/screens/onbording_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 void main(List<String> args) {
-  runApp( MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Column(),
+    return const MaterialApp(
+      home: OnbordingScreen(),
     );
   }
 }
