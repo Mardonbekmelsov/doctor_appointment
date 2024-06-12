@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -30,6 +31,13 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+=======
+    return const ScreenUtilInit(
+      designSize: Size(442, 888),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: OnbordingScreen(),
+>>>>>>> 52a0b13d64d0bd972a9934349f5681b30fa703e9
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
