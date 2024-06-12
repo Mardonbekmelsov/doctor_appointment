@@ -1,6 +1,5 @@
 import 'package:doctor_appointment/views/screens/onbording_screen.dart';
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
